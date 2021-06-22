@@ -1,7 +1,8 @@
 package br.com.alura.orgs
 
 import android.app.Activity
-import android.os.Bundle 
+import android.os.Bundle
+import android.widget.TextView
 
 class MainActivity: Activity() {
 

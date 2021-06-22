@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/nome_do_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Salada de frutas"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/ingredientes_do_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Laranja, manga e uva"
+        app:layout_constraintStart_toStartOf="@id/nome_do_produto"
+        app:layout_constraintTop_toBottomOf="@+id/nome_do_produto"/>
+
+    <TextView
+        android:id="@+id/valor_do_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="R$ 19,99"
+        app:layout_constraintStart_toStartOf="@id/ingredientes_do_produto"
+        app:layout_constraintTop_toBottomOf="@id/ingredientes_do_produto"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
