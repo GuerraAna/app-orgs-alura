@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Orgs</string>
+    <string name="hint_nome_ex_salada_de_frutas">Nome (Ex.: Salada de Frutas)</string>
+    <string name="hint_descricao_ex_uva_abacaxi_e_pera">Descricao (Ex.: Uva, Abacaxi e Pera)</string>
+    <string name="hint_valor_ex_19_90">Valor (Ex.: 19,90)</string>
+    <string name="txt_bt_salvar">Salvar</string>
 </resources>
